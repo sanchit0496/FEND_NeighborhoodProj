@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    text-align: center;
+    background: darkcyan;
+    color: white;
+    padding: 15px;
+}
+#MapContainer{
+    height: 100vh;
+    margin: auto;
+}
+#side-menu{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    opacity: 0.85;
+    overflow-x: hidden;
+    padding-top: 5%;
+    z-index: 2;
+    transition: 0.5s;
+
+}
+#side-menu li{
+    padding: 15px 20px 10px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #e5e2e2;
+    display: block;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#side-menu li:hover{
+    color: #fff;
+    transform: scale(1.15)
+}
+#side-menu .btn-close{
+    position: absolute;
+    top: 0;
+    right: 2%;
+    font-size: 30px;
+    cursor: pointer;
+}
+#menu-icon{
+    padding: 15px 10px 15px 15px;
+    float:left;
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+#menu-icon:hover{
+    transform: scale(1.1)
+}
+#queryBox{
+    font-size: 12.5px;
+    border-radius: 5px;
+    width: 85%;
+    height: 28px;
+    padding:5px;
+}
